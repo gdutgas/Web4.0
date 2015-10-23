@@ -1,0 +1,25 @@
+#footer{
+    width: 105em;
+    padding-top: 10px;
+    height: 70px;
+    margin:5px auto;
+    background-color: darkgrey;
+    line-height: 15px;
+    text-align: center;
+}
+#foot ul{
+    width: 35em;
+    height: 30px;
+    list-style-type: none;
+    line-height: 20px;
+    margin: 0 auto;
+}
+#foot ul li {
+    float: left;
+    padding-left:20px;
+}
+#foot ul li a{
+    display: block;
+    text-decoration: none;;color: #551a8b;
+}
+#foot ul li a:hover{color: blue; font-weight: bolder; font-size: 18px;}

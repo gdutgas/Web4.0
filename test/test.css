@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    border: 0;
+    font-family: "卜悶";
+}
+body{
+    font-size: 12px;
+}
+ul,li{
+    list-style-type: none;
+}
+/*********************************************僥丕嘘尚********************************************************************/
+#top{
+    background-image: url(../img/GDUT.jpg);
+    width: 1360px;
+    height: 130px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+#top p {
+    font-size: 60px;
+    padding-top: 30px;
+    padding-left: 250px;
+    color: crimson;
+    font-weight: bold;
+}
+#top a{
+    text-decoration: none;
+}
+#asd{
+    float: right;
+    margin-right: 30px;
+    padding-top: 15px;
+}
+/************************************************擬砂生*****************************************************************/
+#shouye {
+    background: url(../img/dixian.jpg) ;
+    width: 1360px;
+    margin: 12px auto 0 auto;
+}
+#shouye ul{
+    height: 46px;
+    width: 1260px;
+}
+#shouye ul li{
+    padding-top: 1px;
+    padding-left:62px;
+    padding-right: 62px;
+    float: left;
+    font-size: 26px;
+    font-weight: bold;
+}
+#shouye ul li a{
+    text-decoration: none;
+    height: 26px;
+    display: block;
+    color: #551a8b;
+}
+#shouye ul li a:hover{  background-color: red;}
+#red a{background-color: red}
+                /*。。。。。。。。。。。。。。。。。。。。。。。坪否。。。。。。。。。。。。。。。。。。。。。。。。。。。*/
+#body{width: 1000px;margin: 5px auto;}
+#left{width: 250px;height: 400px;border: 3px solid #50bcfa;float: left;border-radius: 8px;}
+
+                       /*    。。。。。。。。。。 恣円擬砂生朕村。。。。。。    */
+#headline{
+    height:40px;
+    width:100%;
+    margin-top: 10px;
+}
+.hl1{  float: left;margin-left: 20px;}
+.hl2{  float: left;margin-top: 6px;}
+.hl3{  float: left;margin-left: 3px;}
+                   /*    。。。。。。。。。。 恣円擬砂生坪否。。。。。。  ....  */
+#title{
+    width: 250px;
+    height: 200px;
+   margin-top: 5px;
+    border-bottom: 4px solid #808080;
+}
+#title .hd{
+    height: 40px;
+    border-top: 4px solid #808080;
+    text-align: center;
+    font: 14px/30px "卜悶";
+    font-weight: bolder;
+}
+
+ .s1,.s3 {
+    width: 83px;
+    height: 29px;
+    float: left;
+    background:url(img/11.png) repeat-x;
+}
+ .s2{
+    width: 84px;
+    height: 29px;
+    background:url(img/11.png) repeat-x;
+    float: left;
+}
+#title .bd ul{list-style-type: none; margin-left: -20px}
+#title .bd ul li{
+    line-height: 30px;
+    width: 114px;
+    float: left;
+}
+#title .bd ul li a{ margin:10px; font-size: 16px; color: blue;}
+#title .bd ul li a:link,#title .bd ul li a:visited{
+    text-decoration: none;
+    color:black;
+    font-size: 16px;
+}
+
+#title .bd ul li a:hover{color: blue;  font-weight: bolder; font-size: 16px;}
+#zuoye,#shiti{display: none;}
+
+#td{width: 100%;}
+#td a{font-size: 20px;font-weight: bold;line-height: 42px; text-decoration: none;padding-left: 60px; color: black;}
+#td a:hover{color: blue;}
+#td #td1{margin-top:25px;}                                               /*    。。。。。。。。。。 嘔円擬砂生坪否。。。。。。  ....  */
+#right{
+    width: 720px;
+    height:720px;
+    border-radius: 8px;
+    margin-left: 10px;
+    border: 3px solid #50bcfa;
+    float: left;
+}

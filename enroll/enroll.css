@@ -1,0 +1,14 @@
+body{
+	text-align: center;
+}
+#zhuce1{
+	border: 5px solid #333333;
+	width: 400px;
+	height: auto;
+	text-align:center;
+	margin: auto auto;
+}
+td{
+	text-align: right;
+}
+	

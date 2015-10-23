@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    border: 0;
+    font-family: "宋体";
+}
+body{
+    font-size: 12px;
+}
+ul,li{
+    list-style-type: none;
+}
+/*********************************************学校背景********************************************************************/
+#top{
+    background-image: url(../img/GDUT.jpg);
+    width: 1360px;
+    height: 130px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+#top p {
+    font-size: 60px;
+    padding-top: 30px;
+    padding-left: 250px;
+    color: crimson;
+    font-weight: bold;
+}
+#top a{
+    text-decoration: none;
+}
+#asd{
+    float: right;
+    margin-right: 30px;
+    padding-top: 15px;
+}
+/************************************************导航栏*****************************************************************/
+#shouye {
+    background: url(../img/dixian.jpg) ;
+    width: 1360px;
+    margin: 12px auto 0 auto;
+}
+#shouye ul{
+    height: 46px;
+    width: 1260px;
+}
+#shouye ul li{
+    padding-top: 1px;
+    padding-left:62px;
+    padding-right: 62px;
+    float: left;
+    font-size: 26px;
+    font-weight: bold;
+}
+#shouye ul li a{
+    text-decoration: none;
+    height: 26px;
+    display: block;
+    color: #551a8b;
+}
+#shouye ul li a:hover{background-color: red;}

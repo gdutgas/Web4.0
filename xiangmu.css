@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    border: 0;
+    font-family: "ËÎÌå";
+}
+body{
+    font-size: 12px;
+}
+ul,li{
+    list-style-type: none;
+}
+/*********************************************Ñ§Ð£±³¾°********************************************************************/
+#top{
+    background-image: url(img/GDUT.jpg);
+    width: 1360px;
+    height: 130px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+#top p {
+    font-size: 60px;
+    padding-top: 30px;
+    padding-left: 250px;
+    color: crimson;
+    font-weight: bold;
+}
+#top a{
+	text-decoration: none;
+}
+#asd{
+    float: right;
+    margin-right: 30px;
+    padding-top: 15px;
+}
+/************************************************µ¼º½À¸*****************************************************************/
+#shouye {
+    background: url(img/dixian.jpg) ;
+    width: 1360px;
+    margin: 12px auto 0 auto;
+}
+#shouye ul{
+    height: 46px;
+    width: 1260px;
+}
+#shouye ul li{
+    padding-top: 1px;
+    padding-left:62px;
+    padding-right: 62px;
+    float: left;
+    font-size: 26px;
+    font-weight: bold;
+}
+#shouye ul li a{
+    text-decoration: none;
+    height: 26px;
+    display: block;
+    color: #551a8b;
+}
+#shouye ul li a:hover{
+    background-color: red;}
+/*#saosuo form{
+    height: 28px;
+    margin: 5px auto;
+    line-height: 26px;
+    width: 22em;
+    background-color:red;
+}
+.text{
+    width: 15em;                              ËÑË÷¿ò
+    height: 20px;
+    border: 3px solid red;
+}
+.submit{
+    width: 3em;
+    background-color:red;
+    height: 26px;
+    font-weight: bolder;
+    font-style: inherit;
+    color: white;
+}*/
+
+#main{
+    width: 100em;
+    margin: 0 auto;
+    height: 770px ;
+ /*   background-color: blue;*/
+
+}
+#shipin{
+    width: 1100px;
+    height: 500px;
+    background-color: #00cccc;
+    border: double;
+    margin: 0 auto;
+
+}
+#excessive {
+    font-size: 30px;
+    font-weight: bolder;
+    width: 100%;
+    height: 50px;
+    margin-top: 13px;
+   line-height: 50px;
+    margin-bottom: 5px;
+}
+#excessive p{float: left;}
+.hl3{ float: left;margin-top: 8px;}
+#shuoming{
+    height: 200px;
+}
+.kuai {
+    width: 24%;
+    height: 185px;
+    float: left;
+    border: double;
+    margin: 2px;
+    background-color: #FF8D8D;
+}
+#shuoming ul li{
+    list-style-type: square;
+    line-height: 22px;
+    font-size: 14px;
+}
+#left,#middle1,#middle2,#right{
+    padding: 8px;
+}
+#red a{background-color: red}
+
+                   /*........................Ò³½Å................................*/
+#footer{
+    width: 105em;
+    padding-top: 10px;
+    height: 70px;
+    margin:5px auto;
+    background-color: darkgrey;
+    line-height: 15px;
+    text-align: center;
+}
+#foot ul{
+    width: 35em;
+    height: 30px;
+    list-style-type: none;
+    line-height: 20px;
+    margin: 0 auto;
+}
+#foot ul li {
+    float: left;
+    padding-left:20px;
+}
+#foot ul li a{
+    display: block;
+    text-decoration: none;;color: #551a8b;
+}
+#foot ul li a:hover{color: blue; font-weight: bolder; font-size: 18px;}

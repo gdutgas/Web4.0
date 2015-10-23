@@ -1,0 +1,80 @@
+body{
+	
+}
+#nav{
+	height: 100px;
+	width: 900px;
+	margin: 30px 200px;
+	border: none;
+	background-color: #FFF8DC;
+}
+#nav img{
+	float: left;	
+}
+#nav p{
+	float: left;
+	font-family: "黑体";
+    font-size : 3em;
+    color: 	#424242;
+    margin: 15px 5px;
+}
+#main{
+	height: 400px;
+	width: 900px;
+	margin: 30px 200px;
+	border: none;
+	background-color: #FFE7BA;
+}
+#main a{
+	margin-right: 30px;
+}
+#login{
+	border: none;
+	width: 400px;
+	height: 300px;
+	float: right;
+	margin: 40px 30px;
+	background-color: white;
+}
+#footer{
+    width: 900px;
+    padding-top: 10px;
+    height: 70px;
+    margin:5px auto;
+    line-height: 15px;
+    text-align: center;
+}
+#foot ul{
+    width: 35em;
+    height: 30px;
+    list-style-type: none;
+    line-height: 20px;
+    margin: 0 auto;
+}
+#foot ul li {
+    float: left;
+    padding-left:20px;
+}
+#foot ul li a{
+    display: block;
+    text-decoration: none;
+}
+	
+#zhuce1{
+	border: none;
+	width: 900px;
+	height: 400px;
+	margin: 50px 200px;
+	background-color: #FFE7BA;
+}
+#zhuce1 table{
+	width:350px;
+	float: left;
+	margin: 50px 100px;
+	background-color: white;
+	border:1px solid #EDEDED;
+}
+
+td{
+	text-align: right;
+}

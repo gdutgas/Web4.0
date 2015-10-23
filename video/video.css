@@ -1,0 +1,133 @@
+*{
+	margin: 0;
+	border: 0;
+	font-family: "ËÎÌå";
+}
+body{
+	font-size: 12px;
+}
+ul,li{
+	list-style-type: none;
+}
+/*********************************************Ñ§Ð£±³¾°********************************************************************/
+#top{
+	background-image: url(img/GDUT.jpg);
+	width: 1360px;
+	height: 130px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+#top p {
+	font-size: 60px;
+	padding-top: 30px;
+	padding-left: 250px;
+	color: crimson;
+	font-weight: bold;
+}
+#top a{
+	text-decoration: none;
+}
+#asd{
+	float: right;
+	margin-right: 30px;
+	padding-top: 15px;
+}
+/************************************************µ¼º½À¸*****************************************************************/
+#shouye {
+	background: url(img/dixian.jpg) ;
+	width: 1360px;
+	margin: 12px auto 0 auto;
+}
+#shouye ul{
+	height: 46px;
+	width: 1260px;
+}
+#shouye ul li{
+	padding-top: 1px;
+	padding-left:62px;
+	padding-right: 62px;
+	float: left;
+	font-size: 26px;
+	font-weight: bold;
+}
+#shouye ul li a{
+	text-decoration: none;
+	height: 26px;
+	display: block;
+	color: #551a8b;
+}
+#shouye ul li a:hover{
+	background-color: red;}
+#red a{background-color: red}
+
+/************************************************ÄÚÈÝ*****************************************************************/
+#body{
+	width: 1200px;
+	height: 730px;
+	margin: 0 auto;
+}
+#digleft{
+	width: 876px;
+	height: 710px;
+	border: 2px solid #00cccc;
+	border-radius: 5px;
+	float: left;
+	margin: 10px;
+}
+#play{
+	width: 860px;
+	height: 480px;
+	background-color: #383E33;
+	float: left;
+	margin: 10px;
+}
+#list{
+	width: 880px;
+	height: 180px;
+}
+#kuai1,#kuai2,#kuai3{
+	float: left;
+	margin-left: 17px;
+	margin-right: 17px;
+	width: 257px;
+	height: 200px;
+	background-color: #00cccc;}
+.num{width: 257px;}
+#digright{
+	width: 294px;
+	height: 720px;
+	float: left;
+	background-color:#bcc0ce ;
+	border: 2px solid #00cccc;
+	border-radius: 10px;
+}
+
+
+
+
+/************************************************Ò³½Å*****************************************************************/
+#footer{
+	width: 1200px;
+	padding-top: 10px;
+	height: 70px;
+	margin:5px auto;
+	background-color: darkgrey;
+	line-height: 15px;
+	text-align: center;
+}
+#foot ul{
+	width: 35em;
+	height: 30px;
+	list-style-type: none;
+	line-height: 20px;
+	margin: 0 auto;
+}
+#foot ul li {
+	float: left;
+	padding-left:20px;
+}
+#foot ul li a{
+	display: block;
+	text-decoration: none;;color: #551a8b;
+}
+#foot ul li a:hover{color: blue;}
