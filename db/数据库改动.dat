@@ -1,0 +1,10 @@
+﻿2015-10-24 XP
+更改database.sql脚本 line72
+删除对题目的导入语句。
+
+新增insert_test_1024.sql脚本
+在tb_question中插入两道测试题
+
+新增change_tb_question_type.sql脚本
+将tb_question表中的type字段 类型改为varchar(100)
+（同时已更新database.sql脚本）
