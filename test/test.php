@@ -112,7 +112,7 @@
         </div>
         <!----------------------------------------右边---------------------------------------------------->
 		<div id="right">
-            <iframe src="chapter_test.php" id="xinxi" name="xinxi" frameBorder=0 scrolling=no  width="100%" onload="dyniframesize('xinxi');"></iframe>
+            <iframe src="chapter_test.php" id="xinxi" name="xinxi" frameBorder=0 scrolling=no  width="100%" height="100%" style=""></iframe>
         </div>
     </div>
 </div>

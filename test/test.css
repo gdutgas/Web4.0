@@ -12,7 +12,7 @@ ul,li{
 /*********************************************僥丕嘘尚********************************************************************/
 #top{
     background-image: url(../img/GDUT.jpg);
-    width: 1360px;
+    width: 100%;
     height: 130px;
     overflow: hidden;
     margin: 0 auto;
@@ -35,7 +35,7 @@ ul,li{
 /************************************************擬砂生*****************************************************************/
 #shouye {
     background: url(../img/dixian.jpg) ;
-    width: 1360px;
+    width: 100%;
     margin: 12px auto 0 auto;
 }
 #shouye ul{
@@ -59,7 +59,7 @@ ul,li{
 #shouye ul li a:hover{  background-color: red;}
 #red a{background-color: red}
                 /*。。。。。。。。。。。。。。。。。。。。。。。坪否。。。。。。。。。。。。。。。。。。。。。。。。。。。*/
-#body{width: 1000px;margin: 5px auto;}
+#body{width: 1020px;margin: 5px auto;}
 #left{width: 250px;height: 400px;border: 3px solid #50bcfa;float: left;border-radius: 8px;}
 
                        /*    。。。。。。。。。。 恣円擬砂生朕村。。。。。。    */
@@ -119,8 +119,8 @@ ul,li{
 #td a:hover{color: blue;}
 #td #td1{margin-top:25px;}                                               /*    。。。。。。。。。。 嘔円擬砂生坪否。。。。。。  ....  */
 #right{
-    width: 720px;
-    height:720px;
+    width: 740px;
+    height:740px;
     border-radius: 8px;
     margin-left: 10px;
     border: 3px solid #50bcfa;
