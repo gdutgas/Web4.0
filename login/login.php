@@ -33,6 +33,10 @@
                 <p>密码:
                  <input type="password" name="pwdPassword" value=""size="20" maxlength="20">
                 </p>
+				<tr>
+          	  		<td>验证码：</td>
+          	  		<td><img  title="点击刷新" src="../captcha.php" align="absbottom" onclick="this.src='../captcha.php?'+Math.random();"></img></td>
+          	  	</tr>
                  <p>
             	<input type="submit" value="登录" onClick="return check(frmSearch)">
             	<input type="reset" value="重置">            	

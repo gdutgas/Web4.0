@@ -79,7 +79,7 @@ function check(form1){
           	  	</tr>
           	  	<tr>
           	  		<td>验证码：</td>
-          	  		<td></td>
+          	  		<td><img  title="点击刷新" src="../captcha.php" align="absbottom" onclick="this.src='../captcha.php?'+Math.random();"></img></td>
           	  	</tr>
           	  	<tr>
           	  		<td></td>
