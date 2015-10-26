@@ -5,8 +5,18 @@
 		<title>欢迎登录</title>
 	    <link rel="stylesheet" href="login.css" type="text/css">
 	</head>
+	<script language="javascript">
+		function check(form){
+			if (form.txtUsername.value==""){
+				alert("请输入账号!");form.txtUsername.focus();return false;
+			}
+			if (form.pwdPassword.value==""){
+				alert("请输入密码!");form.pwdPassword.focus();return false;
+			}	
+		}
+		</script>
 	<body >
-	   <form action="#" method="get" name="frmSearch">  <!--预留接口-->
+	   <form action="../chklogin.php" method="post" name="frmSearch">  <!--预留接口-->
 	   	<div id="page">
 	   		<div id="nav" align="center" >
                 <a href="../index.php">
@@ -24,7 +34,7 @@
                  <input type="password" name="pwdPassword" value=""size="20" maxlength="20">
                 </p>
                  <p>
-            	<input type="submit" value="登录">
+            	<input type="submit" value="登录" onClick="return check(frmSearch)">
             	<input type="reset" value="重置">            	
                 </p>
             </div>

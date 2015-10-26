@@ -1,4 +1,8 @@
 ﻿<!DOCTYPE html>
+<?php
+include ("check_login.php"); 
+include("conn/conn.php");
+?>
 <html>
 	<head lang="en">
 		<meta charset="UTF-8">
@@ -11,12 +15,13 @@
 			<!---------------------------头部------------------------------------------>
 			<div id="top">
 				<form action="" method="post" id="asd">
-					<button type="submit" class="sss">
+					<!--<button type="submit" class="sss">
 						<a href="login/login.php">登录</a>
 					</button>
 					<button type="submit" class="sss">
 						<a href="enroll/enroll.php">注册</a>
-					</button>
+					</button>-->
+					<?php include("navigation.php"); ?>
 				</form>
 				<P>研究生示范课程 信息论与编码</P>
 			</div>
