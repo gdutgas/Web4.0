@@ -13,6 +13,9 @@
 			if (form.pwdPassword.value==""){
 				alert("请输入密码!");form.pwdPassword.focus();return false;
 			}	
+			if (form.authnum.value==""){
+				alert("请输入验证码!");form.authnum.focus();return false;
+			}	
 		}
 		</script>
 	<body >
@@ -34,7 +37,7 @@
                  <input type="password" name="pwdPassword" value=""size="20" maxlength="20">
                 </p>
 				<tr>
-          	  		<td>验证码：</td>
+          	  		<td>验证码：</td><input type="text" name="authnum" value=""size="4" maxlength="4">
           	  		<td><img  title="点击刷新" src="../captcha.php" align="absbottom" onclick="this.src='../captcha.php?'+Math.random();"></img></td>
           	  	</tr>
                  <p>

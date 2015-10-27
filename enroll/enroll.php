@@ -78,7 +78,7 @@ function check(form1){
           	  		</td>
           	  	</tr>
           	  	<tr>
-          	  		<td>验证码：</td>
+          	  		<td>验证码：<input type="text" name="authnum" value=""size="4" maxlength="4"></td>
           	  		<td><img  title="点击刷新" src="../captcha.php" align="absbottom" onclick="this.src='../captcha.php?'+Math.random();"></img></td>
           	  	</tr>
           	  	<tr>
